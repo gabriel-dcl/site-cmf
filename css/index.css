@@ -280,6 +280,12 @@ li:hover > ul{
 #firstPart {
   background-color: #342141;
   color: #FBAD41;
+  padding-bottom: 10%;
+}
+
+#firstPart #presentation{
+  font-size: 1.40em;
+  margin-top: 3%;
 }
 
 #presentation {
@@ -293,6 +299,18 @@ li:hover > ul{
 
 #logo {
   margin-top: 5%;
+}
+
+footer{
+    background-color: #FBAD41;
+    font-size: 2em;
+}
+
+hr{
+  height:1px;
+  border:none;
+  color:#342141;
+  background-color:#342141;
 }
 
 /* Fonts */
