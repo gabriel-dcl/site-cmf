@@ -2,8 +2,9 @@
 
 body {
   font-family: "Segoe UI";
-
+  color: #342141;
   background-color: white;
+  text-align: justify;
 }
 
 
@@ -270,61 +271,15 @@ li:hover > ul{
     padding-bottom: 10%;
     }
 
-#firstPart {
-      background-color: #342141;
-      color: #FBAD41;
-      padding-bottom: 10%;
+/* Page */
+p {
+  font: 30px "Segoe UI", sans-serif;
+  margin-right: 5%;
+  margin-left: 5%;
+  margin-top: 1.7%;
+  margin-bottom: 7%;
 }
 
-#presentation {
-  text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
-  margin-top: 11%;
-  font: 40px "Segoe UI", sans-serif;
-}
-
-#presentation h1 {
-  font: bold 75px "Segoe UI", sans-serif;
-}
-
-#logo {
-  margin-top: 5%;
-}
-
-#logo img {
-  height : 80%;
-}
-
-/* Flèches du carousel */
-.carousel-control-next-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FBAD41' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
-}
-.carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FBAD41' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
-}
-
-/* Petits ronds du carousel */
-.carousel-indicators li {
-    display: inline-block;
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    text-indent: 0;
-    cursor: pointer;
-    border: none;
-    border-radius: 50%;
-    background-color: #FBAD41;
-
-}
-.carousel-indicators .active {
-    width: 15px;
-    height: 15px;
-    margin: 10px;
-    background-color: #FBAD41;
-}
-
-/* Agenda */
 h2 {
   color: #FBAD41;
   font: bold 50px "Segoe UI", sans-serif;
@@ -335,15 +290,45 @@ h2 {
 .underline {
   margin-left: 5%;
   height: 5px;
-  width: 11%;
   background-color: #EF4536;
 }
 
+/* Première partie contenant la photo et la présentation */
+#firstPart {
+  margin-top: 7%;
+}
+
+#photoPresentation img{
+  margin-left: 10%;
+  width: 80%;
+}
+
+#presentation h2 {
+  margin-top: 0%;
+}
+
+#presentation .underline {
+  width: 35%;
+}
+
+#presentation p {
+  margin-top: 3%;
+  margin-right: 10%;
+  margin-left: 5%;
+}
+
+/* Deuxième partie protocole */
+#protocole .underline {
+  width: 17%;
+}
+
+/* Footer */
 footer{
     background-color: #FBAD41;
     font-size: 2em;
 }
 
+/* Barre de footer */
 hr{
   height:1px;
   border:none;
