@@ -15,8 +15,8 @@ body {
     height: 30px;
     width: 40px;
     position: absolute;
-    top: 16px;
-    left: 21px;
+    top: 21px;
+    left: 26px;
     cursor: pointer;
     z-index: 3;
 }
@@ -38,14 +38,14 @@ body {
 .x,
 .y,
 .z {
-  height: 3px;
-  width: 26px;
+  height: 4px;
+  width: 35px;
 }
 .y{
-  top: 18px;
+  top: 22px;
 }
 .z{
-  top: 37px;
+  top: 44px;
 }
 
 .collapse{
@@ -57,28 +57,7 @@ body {
     -o-transition: all 70ms ease-out;
     transition: all 70ms ease-out;
 }
-.circles {
-    top: 40%;
-    background:#342141;
-    border-radius: 50%;
-    color: #fff;
-    height: 11em;
-    position: relative;
-    width: 11em;
-    margin-top: 5.5em;
-}
 
-.circle-icon {
-    fill: currentColor;
-    height: 50%;
-    left: 50%;
-    position: absolute;
-    stroke: currentColor;
-    stroke-width: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-}
 .collapse:not(.show){
     display: inline;
 }
@@ -129,17 +108,30 @@ body {
 
 /* Barre de navigation */
 .navbar{
-  height:73px;
+  height: 100px;
   background:#342141;
 }
 
+.circles {
+    top: -10%;
+    background:#342141;
+    border-radius: 50%;
+    height: 11em;
+    position: relative;
+    width: 11em;
+    margin-top: 5.5em;
+}
 
-.circleLogo {
-  justify-content: center;
-  background-color: #342141;
-  border-radius: 50%;
-  height: 11em;
-  margin-top: 5.5em;
+.circle-icon {
+    fill: currentColor;
+    height: 50%;
+    left: 50%;
+    position: absolute;
+    stroke: currentColor;
+    stroke-width: 0;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
 }
 
 /* Cercle du menu */
@@ -277,6 +269,7 @@ li:hover > ul{
     transition-delay: 0.18s;
 }
 
+/* Partie violette avec présentation et logo*/
 #firstPart {
   background-color: #342141;
   color: #FBAD41;
@@ -284,15 +277,61 @@ li:hover > ul{
 
 #presentation {
   text-align: center;
-  padding: 10%;
+  padding-left: 13%;
+  padding-right: 13%;
+  margin-top: 11%;
+  font: 25px "Segoe UI", sans-serif;
 }
 
 #presentation h1 {
-  font: bold 55px "Segoe UI", sans-serif;
+  font: bold 50px "Segoe UI", sans-serif;
 }
 
 #logo {
   margin-top: 5%;
+}
+
+/* Flèches du carousel */
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FBAD41' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23FBAD41' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/* Petits ronds du carousel */
+.carousel-indicators li {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    text-indent: 0;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    background-color: #FBAD41;
+
+}
+.carousel-indicators .active {
+    width: 15px;
+    height: 15px;
+    margin: 10px;
+    background-color: #FBAD41;
+}
+
+/* Agenda */
+h2 {
+  color: #FBAD41;
+  font: bold 40px "Segoe UI", sans-serif;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.underline {
+  margin-left: 5%;
+  height: 3%;
+  width: 12%;
+  background-color: #EF4536;
 }
 
 /* Fonts */
