@@ -13,6 +13,7 @@
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
       <link rel="stylesheet" href="./css/index.css" />
+      <link rel="stylesheet" href="./css/carousel.css" />
 
       <!-- Fonts -->
       <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
@@ -66,7 +67,7 @@
       <!-- Page -->
       <div class="container-fluid">
 
-        <div id="firstPart" class="row" >
+        <div id="firstPart" class="row" style="height: 42.5em">
           <div id="presentation" class="col-7">
             <!-- Présentation -->
             <h1>Un été musical !</h1>
@@ -123,6 +124,32 @@
           </div>
         </div>
 
+
+        <div class="row">
+
+          <div class="gallery">
+            <div class="gallery-container">
+
+              <div class="card gallery-item gallery-item-1" style="width: 18rem;">
+              <div class="card-header">
+                Featured
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">An item</li>
+                <li class="list-group-item">A second item</li>
+                <li class="list-group-item">A third item</li>
+              </ul>
+            </div>
+              <img class="gallery-item gallery-item-2" src="http://fakeimg.pl/300/?text=2" data-index="2">
+              <img class="gallery-item gallery-item-3" src="http://fakeimg.pl/300/?text=3" data-index="3">
+              <img class="gallery-item gallery-item-4" src="http://fakeimg.pl/300/?text=4" data-index="4">
+              <img class="gallery-item gallery-item-5" src="http://fakeimg.pl/300/?text=5" data-index="5">
+            </div>
+            <div class="gallery-controls"></div>
+          </div>
+
+        </div>
+
       </div>
 
       <footer class="text-center text-lg-start" style="max-width: 100">
@@ -160,6 +187,8 @@
       </footer>
 
       <!-- Scripts -->
+
+        <script src="./scripts/carousel.js"></script>
 
       <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 
