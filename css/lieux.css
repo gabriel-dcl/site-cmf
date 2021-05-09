@@ -291,31 +291,115 @@ h2 {
 
 #title {
   margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+a {
+  color: #342141;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #342141;
+  letter-spacing: 0.5em;
+  font-weight: 1000;
+}
+
+a:hover > #text1 {
+  margin: 0%;
+  margin-left: 9%;
+  transition: all 0.2s ease-out;
+  border-width: thick;
+}
+
+a:hover > #text2 {
+  margin: 0%;
+  margin-left: -1%;
+  transition: all 0.2s ease-out;
+  border-width: thick;
+}
+
+h3 {
+  font: bold 60px "Segoe UI", sans-serif;
+}
+
+h4 {
+  font: bold 55px "Segoe UI", sans-serif;
 }
 
 /* Première ville */
 #firstCity {
+  position: relative;
+  margin-bottom: 8%;
+  height: 350px;
+}
+
+#background1 {
+  position: absolute;
   background-color: #FBAD41;
-  margin-top: 2%;
-  width: 75%;
+  width: 85%;
+  height: 100%;
+  top: 0;
+  right: 0;
 }
 
-#text {
+#text1 {
+  z-index: 1;
+  width: 87%;
+  height: 100%;
   text-align: center;
-  margin-top: 8%;
-  margin-left: -8%;
   border: solid #342141;
-  padding-top: 8%;
+  margin-left: 11%;
+  margin-top: 3%;
+  padding-top: 7%;
 }
 
-#text h3 {
-  font: bold 65px "Segoe UI", sans-serif;
+/* Deuxième ville */
+#secondCity {
+  position: relative;
+  margin-bottom: 8%;
+  height: 400px;
 }
 
-#text h4 {
-  font: bold 60px "Segoe UI", sans-serif;
+#background2 {
+  position: absolute;
+  background-color: #F7D340;
+  width: 85%;
+  height: 100%;
+  top: 0;
+  left: 0;
 }
 
+#text2 {
+  z-index: 1;
+  width: 87%;
+  height: 100%;
+  text-align: center;
+  border: solid #342141;
+  margin-left: 2%;
+  margin-top: 3%;
+  padding-top: 7%;
+}
+
+/* Troisième ville */
+#background3 {
+  position: absolute;
+  background-color: #D63F31;
+  width: 85%;
+  height: 100%;
+  top: 0;
+  right: 0;
+}
+
+/* Quatrième ville */
+#background4 {
+  position: absolute;
+  background-color: #D95027;
+  width: 85%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
 
 /* Footer */
 footer{
