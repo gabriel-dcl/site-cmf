@@ -1,4 +1,4 @@
-/* Site Web Stage CMF Côte d'Or - 2021 - Page d'accueil */
+/* Site Web Stage CMF Côte d'Or - 2021 - Page présentant les lieux du stage */
 
 body {
   font-family: "Segoe UI";
@@ -274,15 +274,7 @@ li:hover > ul{
     padding-bottom: 10%;
     }
 
-/* Page */
-p {
-  font: 30px "Segoe UI", sans-serif;
-  margin-right: 5%;
-  margin-left: 5%;
-  margin-top: 1.7%;
-  margin-bottom: 7%;
-}
-
+/* Titre */
 h2 {
   color: #FBAD41;
   font: bold 50px "Segoe UI", sans-serif;
@@ -294,36 +286,36 @@ h2 {
   margin-left: 5%;
   height: 5px;
   background-color: #EF4536;
+  width: 23%;
 }
 
-/* Première partie contenant la photo et la présentation */
-#firstPart {
-  margin-top: 12%;
+#title {
+  margin-top: 5%;
 }
 
-#photoPresentation img{
-  margin-left: 10%;
-  width: 80%;
+/* Première ville */
+#firstCity {
+  background-color: #FBAD41;
+  margin-top: 2%;
+  width: 75%;
 }
 
-#presentation h2 {
-  margin-top: 0%;
+#text {
+  text-align: center;
+  margin-top: 8%;
+  margin-left: -8%;
+  border: solid #342141;
+  padding-top: 8%;
 }
 
-#presentation .underline {
-  width: 35%;
+#text h3 {
+  font: bold 65px "Segoe UI", sans-serif;
 }
 
-#presentation p {
-  margin-top: 3%;
-  margin-right: 10%;
-  margin-left: 5%;
+#text h4 {
+  font: bold 60px "Segoe UI", sans-serif;
 }
 
-/* Deuxième partie protocole */
-#protocole .underline {
-  width: 17%;
-}
 
 /* Footer */
 footer{
