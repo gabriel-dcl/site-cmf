@@ -119,8 +119,6 @@ body {
     display: none;
 }
 
-
-
 .circles {
     top: -10%;
     background:#342141;
@@ -240,7 +238,7 @@ li:hover > ul{
 }
 
 .menu > ul {
-    top:40px;
+    top:400px;
     position : absolute;
     left: 4%;
 }
@@ -315,6 +313,9 @@ li:hover > ul{
   height : 80%;
 }
 
+#navbar-logo-mobile{
+  display:none;
+}
 
 /* Flèches du carousel */
 .carousel-control-next-icon {
@@ -380,7 +381,6 @@ hr{
 
 @media screen and (max-width: 1440px) {
   #presentation {
-
     font: 35px "Segoe UI", sans-serif;
   }
 
@@ -396,7 +396,10 @@ hr{
 
   #firstPart {
     padding-top:3%;
-        padding-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  footer img{
+    width: 5%;
   }
 }
 
@@ -404,11 +407,17 @@ hr{
     #firstPart {
         margin-bottom: -6%;
     }
+    footer img{
+      width: 8%;
+    }
 }
+
+
+
 @media screen and (min-height: 1000px) {
     #firstPart {
       padding-top:5%;
-        padding-bottom: 5%;
+      padding-bottom: 5%;
     }
 }
 /* Middle Size PC */
@@ -474,7 +483,41 @@ hr{
   #carouselExampleIndicators{
     display:none;
   }
+  #circles{
+    display: none;
+  }
+  #navbar-logo-mobile{
+    display:block;
+  }
+  .navbar{
+    height: 110px;
+  }
+  .menu > ul{
+    top: 120%;
+    left: -10%;
+  }
+}
 
+@media screen and (max-width: 420px) {
+    footer img{
+      width: 14%;
+    }
+    footer{
+      font-size:18px;
+    }
+    .menu > ul{
+      top: 120%;
+      left: -30%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu ul li a{
+      font-size: 30px!important;
+    }
+    .menu ul {
+      left:-20%;
+    }
 }
 
 /* Fonts */
