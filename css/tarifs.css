@@ -205,7 +205,6 @@ li:hover > ul{
 .menu ul li:hover ul li {
    left: 25px;
    top: 0px;
-
 }
 
 .menu ul li a {
@@ -233,7 +232,7 @@ li:hover > ul{
 }
 
 .menu > ul {
-    top:40px;
+    top: 150%;
     position : absolute;
     left: 4%;
 }

@@ -179,7 +179,8 @@ body {
     height: 568px;
     width: 100%;
     position: absolute;
-    top: 0px; left: 0px;
+    top: 0px;
+    left: 0px;
     margin-top: 4%;
     display: none;
 }
@@ -211,7 +212,6 @@ li:hover > ul{
 .menu ul li:hover ul li {
    left: 25px;
    top: 0px;
-
 }
 
 .menu ul li a {
@@ -240,7 +240,7 @@ li:hover > ul{
 }
 
 .menu > ul {
-    top:40px;
+    top: 150%;
     position : absolute;
     left: 4%;
 }
@@ -278,18 +278,19 @@ li:hover > ul{
 }
 .menu > ul > li.animate:nth-of-type(7){
   position: relative;
-    transition-delay: 0.18s;
-    padding-bottom: 10%;
-    }
+  transition-delay: 0.18s;
+  padding-bottom: 10%;
+}
 
 #firstPart {
-      background-color: #342141;
-      color: #FBAD41;
-      padding-bottom: 2%;
+  background-color: #342141;
+  color: #FBAD41;
+  padding-bottom: 3%;
 }
-  #firstPartMobile{
-    display: none;
-  }
+
+#firstPartMobile{
+  display: none;
+}
 
 #presentation {
   text-align: center;
