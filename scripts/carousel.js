@@ -1,6 +1,6 @@
 const galleryContainer = document.querySelector('.gallery-container');
 const galleryControlsContainer = document.querySelector('.gallery-controls');
-const galleryControls = ['previous', 'add', 'next'];
+const galleryControls = ['previous', 'next'];
 const galleryItems = document.querySelectorAll('.gallery-item');
 
 class Carousel {
@@ -33,7 +33,6 @@ class Carousel {
     } else {
       this.carouselArray.push(this.carouselArray.shift());
     }
-    
     this.updateGallery();
   }
 
@@ -44,7 +43,7 @@ class Carousel {
     // this.carouselArray.forEach(item => {
     //   const nav = galleryContainer.lastElementChild;
     //   nav.appendChild(document.createElement('li'));
-    // }); 
+    // });
   // }s
 
   // Construct the carousel controls
@@ -55,7 +54,7 @@ class Carousel {
       document.querySelector(`.gallery-controls-${control}`).innerText = control;
     });
   }
- 
+
   // Add a click event listener to trigger setCurrentState method to rearrange carousel
   useControls() {
     const triggers = [...galleryControlsContainer.childNodes];
