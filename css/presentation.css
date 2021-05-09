@@ -175,6 +175,7 @@ body {
     position: absolute;
     top: 0px; left: 0px;
     margin-top: 4%;
+    display: none;
 }
 
 /* Premières catégories du menu */
@@ -233,11 +234,11 @@ li:hover > ul{
 
 .menu > ul {
     top:40px;
+    position : absolute;
+    left: 4%;
 }
-
-.menu  ul {
-
-  position : absolute;
+ .shown{
+  display:contents!important;
 }
 
 .menu ul li {
