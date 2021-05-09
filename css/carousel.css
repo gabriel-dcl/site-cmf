@@ -157,3 +157,48 @@
 .gallery-nav li.gallery-item-selected {
   background: #555;
 }
+
+@media screen and (max-width: 1000px) {
+  .gallery{
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .gallery-item-3 {
+    width: 370px;
+    height: 370px;
+  }
+  .gallery-item-2,
+  .gallery-item-4 {
+    opacity: 0.2;
+    width:260px;
+    height: 260px;
+  }
+
+  .gallery-item-2 {
+    left: 200%;
+  }
+
+  .gallery-item-4 {
+    left: -200%;
+  }
+
+  .gallery-item-1 {
+    opacity: 0;
+  }
+  .gallery-item-5 {
+    opacity: 0;
+  }
+
+  @media screen and (max-width: 370px) {
+    .gallery{
+      width: 5%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .gallery-item-3 {
+      width: 300px;
+      height: 300px;
+    }
+}

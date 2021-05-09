@@ -12,7 +12,6 @@ $('div.burger').on(click, function(){
 
 
 $('div.menu ul li a').on(click, function(e){
-    e.preventDefault();
     closeMenu();
 });
 
@@ -24,7 +23,7 @@ function openMenu(){
     $('div.burger').addClass('open');
     $('div.x, div.y, div.z').addClass('collapse');
     $('.menu li').addClass('animate');
-
+    $('.menu').addClass('shown');
     setTimeout(function(){
         $('div.y').hide();
         $('div.x').addClass('rotate30');
@@ -34,7 +33,7 @@ function openMenu(){
         $('div.x').addClass('rotate45');
         $('div.z').addClass('rotate135');
     }, 120);
-    
+
 }
 
 function closeMenu(){
@@ -44,6 +43,7 @@ function closeMenu(){
     $('div.z').removeClass('rotate135').addClass('rotate150');
     $('div.circle').removeClass('expand');
     $('.menu li').removeClass('animate');
+    $('.menu').removeClass('shown');
 
     setTimeout(function(){
         $('div.x').removeClass('rotate30');
