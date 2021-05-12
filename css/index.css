@@ -242,8 +242,17 @@ li:hover > ul{
     position : absolute;
     left: 4%;
 }
+
+.fond-transparent{
+  display:none;
+}
+
  .shown{
   display:contents!important;
+}
+
+.shown-inline{
+  display: inline !important;
 }
 
 .menu ul li {

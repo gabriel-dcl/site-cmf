@@ -15,11 +15,16 @@ $('div.menu ul li a').on(click, function(e){
     closeMenu();
 });
 
+$('.fond-transparent').on(click, function(e){
+    closeMenu();
+});
+
+
 
 function openMenu(){
 
     $('div.circle').addClass('expand');
-
+    $('.fond-transparent').addClass('shown-inline');
     $('div.burger').addClass('open');
     $('div.x, div.y, div.z').addClass('collapse');
     $('.menu li').addClass('animate');
@@ -44,6 +49,7 @@ function closeMenu(){
     $('div.circle').removeClass('expand');
     $('.menu li').removeClass('animate');
     $('.menu').removeClass('shown');
+      $('.fond-transparent').removeClass('shown-inline');
 
     setTimeout(function(){
         $('div.x').removeClass('rotate30');
