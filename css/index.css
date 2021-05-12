@@ -119,8 +119,6 @@ body {
     display: none;
 }
 
-
-
 .circles {
     top: -10%;
     background:#342141;
@@ -244,8 +242,17 @@ li:hover > ul{
     position : absolute;
     left: 4%;
 }
+
+.fond-transparent{
+  display:none;
+}
+
  .shown{
   display:contents!important;
+}
+
+.shown-inline{
+  display: inline !important;
 }
 
 .menu ul li {
@@ -316,6 +323,9 @@ li:hover > ul{
   height : 80%;
 }
 
+#navbar-logo-mobile{
+  display:none;
+}
 
 /* Flèches du carousel */
 .carousel-control-next-icon {
@@ -381,7 +391,6 @@ hr{
 
 @media screen and (max-width: 1440px) {
   #presentation {
-
     font: 35px "Segoe UI", sans-serif;
   }
 
@@ -397,7 +406,10 @@ hr{
 
   #firstPart {
     padding-top:3%;
-        padding-bottom: 0px;
+    padding-bottom: 0px;
+  }
+  footer img{
+    width: 5%;
   }
 }
 
@@ -405,11 +417,17 @@ hr{
     #firstPart {
         margin-bottom: -6%;
     }
+    footer img{
+      width: 8%;
+    }
 }
+
+
+
 @media screen and (min-height: 1000px) {
     #firstPart {
       padding-top:5%;
-        padding-bottom: 5%;
+      padding-bottom: 5%;
     }
 }
 /* Middle Size PC */
@@ -427,7 +445,6 @@ hr{
           padding-bottom: 0px;
     }
     .burger {
-
         top: 21px;
         left: 75%;
     }
@@ -462,20 +479,53 @@ hr{
     margin-left: 20px;
     margin-right:20px;
   }
-
-    #mobilePresentationText h1{
-      margin-top: 60%;
-      font: 41px "Segoe UI", sans-serif;
-      font-weight: bold;
-      margin-bottom: 15px;
-    }
+  #mobilePresentationText h1{
+    margin-top: 60%;
+    font: 41px "Segoe UI", sans-serif;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
   .gallery{
     width:40%;
   }
   #carouselExampleIndicators{
     display:none;
   }
+  #circles{
+    display: none;
+  }
+  #navbar-logo-mobile{
+    display:block;
+  }
+  .navbar{
+    height: 110px;
+  }
+  .menu > ul{
+    top: 120%;
+    left: -10%;
+  }
+}
 
+@media screen and (max-width: 420px) {
+    footer img{
+      width: 14%;
+    }
+    footer{
+      font-size:18px;
+    }
+    .menu > ul{
+      top: 120%;
+      left: -30%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu ul li a{
+      font-size: 30px!important;
+    }
+    .menu ul {
+      left:-20%;
+    }
 }
 
 /* Fonts */
