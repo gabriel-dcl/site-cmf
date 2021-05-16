@@ -1,0 +1,198 @@
+/* Site Web Stage CMF Côte d'Or - 2021 - Page d'accueil */
+/* FICHIER CSS COMMUN A TOUTES LES PAGES */
+
+
+
+#navbar-logo-mobile{
+  display:none;
+}
+
+
+
+/*
+          RESPONSIVE
+*/
+
+/* Middle Size PC */
+
+@media screen and (max-width: 1440px) {
+  #presentation {
+    font: 35px "Segoe UI", sans-serif;
+  }
+
+  #presentation h1 {
+    font: bold 55px "Segoe UI", sans-serif;
+  }
+  #logo{
+    margin-bottom: -1%;
+  }
+  #logo img {
+    height : 60%;
+  }
+
+  footer img{
+    width: 5%;
+  }
+}
+
+@media screen and (max-width: 1370px) {
+  .underline{
+    width: 12%;
+  }
+}
+
+@media screen and (max-height: 850px) {
+    footer img{
+      width: 8%;
+    }
+}
+
+/* Phones */
+
+@media screen and (max-width: 1000px) {
+    #logo img {
+      display:none;
+    }
+    #title{
+      margin-top: 10%;
+      margin-bottom: 3%;
+    }
+    .burger {
+        top: 21px;
+        left: 75%;
+    }
+    .circle.expand{
+        width: 4000%;
+        height: 4000%;
+        top: -1550%;
+    }
+    #layer {
+      background-color: rgba(52, 33, 65, 0.7);
+      color:#FBAD41;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 98%;
+}
+  #navbar-logo-mobile{
+    display:block;
+  }
+  .navbar{
+    height: 110px;
+  }
+  .menu > ul{
+    top: 120%;
+    left: -10%;
+  }
+  .circles{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  #title{
+    margin-top: 13%;
+    margin-bottom: 3%;
+  }
+  .underline{
+    width:19%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #title{
+    margin-top: 18%;
+    margin-bottom: 3%;
+  }
+  .underline{
+    width:24%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #title{
+    margin-top: 24%;
+    margin-bottom: 3%;
+  }
+  .underline{
+    width:29%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  #title{
+    margin-top: 27%;
+    margin-bottom: 3%;
+  }
+  footer img{
+    width: 14%;
+  }
+  footer{
+    font-size:18px;
+  }
+  .menu > ul{
+    top: 120%;
+    left: -30%;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  #title{
+    margin-top: 32%;
+    margin-bottom: 5%;
+  }
+  .underline{
+    width:35%;
+  }
+  .justify-content-center h4{
+    font-size:20px;
+  }
+  .menu ul {
+    left:-20%;
+  }
+  .menu ul li a{
+    font-size: 30px!important;
+  }
+}
+@media screen and (max-width: 335px) {
+  #title{
+    margin-top: 38%;
+    margin-bottom: 5%;
+  }
+  .underline{
+    width:44%;
+  }
+}
+
+@media screen and (max-width: 260px) {
+  #title{
+    margin-top: 50%;
+    margin-bottom: 5%;
+  }
+  .underline{
+    width:53%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+    footer img{
+      width: 14%;
+    }
+    footer{
+      font-size:18px;
+    }
+    .menu > ul{
+      top: 120%;
+      left: -30%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .menu ul li a{
+      font-size: 30px!important;
+    }
+    .menu ul {
+      left:-20%;
+    }
+}

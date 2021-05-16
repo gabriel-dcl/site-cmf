@@ -126,6 +126,7 @@ body {
     margin-top: 5.5em;
 }
 
+
 .circle-icon {
     fill: currentColor;
     height: 50%;
@@ -241,6 +242,9 @@ li:hover > ul{
   display:contents!important;
 }
 
+.noHover{
+    pointer-events: none;
+}
 
 .menu ul li {
   position : relative;
@@ -297,6 +301,7 @@ h2 {
 }
 
 
+
 p {
   font: bold 45px "Segoe UI", sans-serif;
   text-align: left;
@@ -308,6 +313,23 @@ p {
 .questiontalktext{
   padding: 2%;
 	text-align: left;
+}
+
+a{
+  font: bold 45px "Segoe UI", sans-serif;
+  text-align: left;
+  color:black;
+}
+
+a:hover{
+  font: bold 45px "Segoe UI", sans-serif;
+  text-align: left;
+  color:black;
+  text-decoration: none;
+}
+
+.reponse{
+  display:none;
 }
 
 .tri-right.border.btm-left-in:before {
@@ -387,6 +409,29 @@ hr{
   border:none;
   color:#342141;
   background-color:#342141;
+}
+
+@media screen and (max-width: 900px) {
+  p{
+    font-size: 30px!important;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  p{
+    font-size: 20px!important;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .question .row{
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  footer{
+    margin-top: 50px;
+  }
 }
 
 
