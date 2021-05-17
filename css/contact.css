@@ -276,16 +276,32 @@ li:hover > ul{
     padding-bottom: 10%;
     }
 
-.col-8 {
-  background: red;
-  height: 300px;
+input, textarea{
+  background-color: #E8E8EA!important;
+  border-style: none!important;
+  font-weight: bold!important;
+  border-radius: 6px!important;
+}
+
+button{
+  background-color: #342141!important;
+  border-style: none!important;
+  border-radius: 35px!important;
+  padding-left: 25px!important;
+  padding-right: 25px!important;
+  font-size: 30px!important;
+}
+
+#reseaux img{
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 /* Partie gauche violette */
 #purpleCard {
   color: #FFF;
   background-color: #342141;
-  padding: 4%;
+  padding: 3%;
 }
 
 #purpleCard h2 {
