@@ -301,10 +301,10 @@ li:hover > ul{
 
 #presentation {
   text-align: center;
-  padding-left: 10%;
-  padding-right: 10%;
+  padding-left: 7%;
+  padding-right: 7%;
   margin-top: 15%;
-  font: 40px "Segoe UI", sans-serif;
+  font: 34px "Segoe UI", sans-serif;
 }
 
 #presentation h1 {

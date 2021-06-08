@@ -279,15 +279,19 @@ p {
   font: 30px "Segoe UI", sans-serif;
   margin-right: 5%;
   margin-left: 5%;
-  margin-top: 1.7%;
-  margin-bottom: 7%;
+  margin-top: 2%;
+}
+
+ul {
+  font: 30px "Segoe UI", sans-serif;
+  margin-right: 5%;
+  margin-left: 5%;
 }
 
 h2 {
   color: #FBAD41;
-  font: bold 50px "Segoe UI", sans-serif;
+  font: 50px "Segoe UI", sans-serif;
   margin-left: 5%;
-  margin-top: 5%;
 }
 
 .underline {
@@ -296,34 +300,46 @@ h2 {
   background-color: #EF4536;
 }
 
-/* Première partie contenant la photo et la présentation */
+/* Présentation */
 #firstPart {
-  margin-top: 12%;
-}
-
-#photoPresentation img{
-  margin-left: 10%;
-  width: 80%;
-}
-
-#presentation h2 {
-  margin-top: 0%;
+  margin-top: 10%;
 }
 
 #presentation .underline {
-  width: 35%;
+  width: 12%;
 }
 
-#presentation p {
-  margin-top: 3%;
-  margin-right: 10%;
-  margin-left: 5%;
+/* Pour qui ? */
+#pourQui {
+  margin-top: 4%;
 }
 
-/* Deuxième partie protocole */
-#protocole .underline {
+#pourQui .underline {
+  width: 14%;
+}
+
+/* Journée type */
+#journeeType {
+  margin-top: 4%;
+}
+
+#journeeType .underline {
   width: 17%;
 }
+
+/* Indispensables */
+#indispensables {
+  margin-top: 4%;
+  margin-bottom: 5%;
+}
+
+#indispensables .underline {
+  width : 24%;
+}
+
+
+
+
 
 /* Footer */
 footer{
