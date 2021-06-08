@@ -382,6 +382,9 @@ hr{
   background-color:#342141;
 }
 
+#navbar-logo-mobile{
+  display:none;
+}
 
 /*
           RESPONSIVE
@@ -432,6 +435,14 @@ hr{
 }
 /* Middle Size PC */
 
+@media screen and (max-width: 1000px) {
+    #logo img {
+      display:none;
+    }
+    .circles{
+      display: none;
+    }
+}
 
 /* Phones */
 
