@@ -285,7 +285,6 @@ h2 {
   color: #FBAD41;
   font: bold 50px "Segoe UI", sans-serif;
   margin-left: 5%;
-  margin-top: 5%;
 }
 
 .underline {
@@ -293,11 +292,6 @@ h2 {
   height: 5px;
   background-color: #EF4536;
   width: 7%;
-}
-
-#title {
-  margin-top: 5%;
-  margin-bottom: 2%;
 }
 
 
