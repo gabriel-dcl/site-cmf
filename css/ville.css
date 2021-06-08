@@ -1,4 +1,4 @@
-/* Site Web Stage CMF Côte d'Or - 2021 - Page de présentation */
+/* Site Web Stage CMF Côte d'Or - 2021 - Page des villes */
 
 body {
   font-family: "Segoe UI";
@@ -300,45 +300,84 @@ h2 {
   background-color: #EF4536;
 }
 
+/* Titre */
+h3  {
+  font: Bold 55px "Segoe UI", sans-serif;
+}
+
+#city {
+  position: relative;
+  margin-top: 12%;
+  height: 200px;
+}
+
+#background {
+  position: absolute;
+  background-color: #FBAD41;
+  width: 65%;
+  height: 90%;
+  top: 0;
+  right: 17%;
+}
+
+#text1 {
+  z-index: 1;
+  width: 67%;
+  height: 90%;
+  text-align: center;
+  border: solid #342141;
+  margin-left: 14%;
+  margin-top: 3%;
+  padding-top: 3%;
+}
+
+h4 {
+  margin-top: 8%;
+  color: #FBAD41;
+  font: Bold 40px "Segoe UI", sans-serif;
+  border: solid #342141;
+  padding-left: 2%;
+  padding-right: 2%;
+  width: 88%;
+}
+
 /* Présentation */
 #firstPart {
-  margin-top: 10%;
+  margin-top: 5%;
+}
+
+#firstPart img {
+  width: 100%;
+  margin-left: 5%;
+  margin-top: 7%;
 }
 
 #presentation .underline {
-  width: 12%;
+  width: 47%;
 }
 
-/* Pour qui ? */
-#pourQui {
+/* Lieu */
+#lieu {
   margin-top: 4%;
 }
 
-#pourQui .underline {
-  width: 14%;
+#lieu .underline {
+  width: 21%;
 }
 
-/* Journée type */
-#journeeType {
-  margin-top: 4%;
+#photoLieu {
+  text-align: center;
 }
 
-#journeeType .underline {
-  width: 17%;
-}
-
-/* Indispensables */
-#indispensables {
+/* L'équipe */
+#equipe {
   margin-top: 4%;
   margin-bottom: 5%;
 }
 
-#indispensables .underline {
-  width : 24%;
+#equipe .underline {
+  width: 12%;
 }
-
-
-
 
 
 /* Footer */
