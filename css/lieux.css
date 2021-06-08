@@ -309,7 +309,7 @@ a:hover {
 
 a:hover > #text1 {
   margin: 0%;
-  margin-left: 14%;
+  margin-left: 24%;
   transition: all 0.2s ease-out;
   border-width: thick;
 }
@@ -322,36 +322,36 @@ a:hover > #text2 {
 }
 
 h3 {
-  font: bold 60px "Segoe UI", sans-serif;
+  font: bold 50px "Segoe UI", sans-serif;
 }
 
 h4 {
-  font: bold 55px "Segoe UI", sans-serif;
+  font: bold 45px "Segoe UI", sans-serif;
 }
 
 /* Première ville */
 #firstCity {
   position: relative;
-  margin-bottom: 8%;
+  margin-bottom: 3%;
   height: 350px;
 }
 
 #background1 {
   position: absolute;
   background-color: #FBAD41;
-  width: 85%;
-  height: 100%;
+  width: 75%;
+  height: 90%;
   top: 0;
   right: 0;
 }
 
 #text1 {
   z-index: 1;
-  width: 87%;
-  height: 100%;
+  width: 77%;
+  height: 90%;
   text-align: center;
   border: solid #342141;
-  margin-left: 11%;
+  margin-left: 22%;
   margin-top: 3%;
   padding-top: 7%;
 }
@@ -359,26 +359,26 @@ h4 {
 /* Deuxième ville */
 #secondCity {
   position: relative;
-  margin-bottom: 8%;
+  margin-bottom: 1%;
   height: 400px;
 }
 
 #background2 {
   position: absolute;
   background-color: #F7D340;
-  width: 85%;
-  height: 100%;
+  width: 75%;
+  height: 80%;
   top: 0;
   left: 0;
 }
 
 #text2 {
   z-index: 1;
-  width: 87%;
-  height: 100%;
+  width: 77%;
+  height: 80%;
   text-align: center;
   border: solid #342141;
-  margin-left: 2%;
+  margin-left: 1%;
   margin-top: 3%;
   padding-top: 7%;
 }
@@ -387,8 +387,8 @@ h4 {
 #background3 {
   position: absolute;
   background-color: #D63F31;
-  width: 85%;
-  height: 100%;
+  width: 75%;
+  height: 90%;
   top: 0;
   right: 0;
 }
@@ -397,8 +397,8 @@ h4 {
 #background4 {
   position: absolute;
   background-color: #D95027;
-  width: 85%;
-  height: 100%;
+  width: 75%;
+  height: 80%;
   top: 0;
   left: 0;
 }
