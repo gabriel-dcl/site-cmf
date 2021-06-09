@@ -393,7 +393,7 @@ hr{
   }
 
   #presentation .underline {
-    width: 45%;
+    width: 37%;
   }
 
   #pourQui {
@@ -401,7 +401,7 @@ hr{
   }
 
   #pourQui .underline {
-    width: 50%;
+    width: 45%;
   }
 
   #journeeType {
@@ -409,7 +409,7 @@ hr{
   }
 
   #journeeType .underline {
-    width: 65%;
+    width: 55%;
   }
 
   #indispensables {
@@ -417,7 +417,26 @@ hr{
   }
 
   #indispensables .underline {
-    width : 90%;
+    width : 75%;
+  }
+
+  p {
+    font: 25px "Segoe UI", sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  ul {
+    font: 25px "Segoe UI", sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  h2 {
+    color: #FBAD41;
+    font: 40px "Segoe UI", sans-serif;
+    margin-left: 5%;
   }
 }
 
@@ -427,15 +446,15 @@ hr{
   }
 
   #presentation .underline {
-    width: 60%;
+    width: 50%;
   }
 
   #pourQui .underline {
-    width: 70%;
+    width: 57%;
   }
 
   #journeeType .underline {
-    width: 90%;
+    width: 70%;
   }
 
   #indispensables .underline {
@@ -449,6 +468,25 @@ hr{
   ul {
     text-align: left;
   }
+
+  p {
+    font: 25px "Segoe UI", sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  ul {
+    font: 25px "Segoe UI", sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  h2 {
+    color: #FBAD41;
+    font: 40px "Segoe UI", sans-serif;
+    margin-left: 5%;
+  }
 }
 
 @media screen and (max-width: 375px) {
@@ -457,15 +495,15 @@ hr{
   }
 
   #presentation .underline {
-    width: 65%;
+    width: 55%;
   }
 
   #pourQui .underline {
-    width: 75%;
+    width: 63%;
   }
 
   #journeeType .underline {
-    width: 95%;
+    width: 77%;
   }
 
   #indispensables .underline {
