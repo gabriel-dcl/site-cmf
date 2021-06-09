@@ -292,10 +292,11 @@ h2 {
   height: 5px;
   background-color: #EF4536;
   width: 7%;
+  margin-bottom: 2%;
 }
 
 p {
-  font: bold 45px "Segoe UI", sans-serif;
+  font: bold 35px "Segoe UI", sans-serif;
   text-align: left;
 }
 
@@ -337,7 +338,7 @@ a:hover{
 
 .talk-bubble {
 	margin-left: 10%;
-  margin-top: 3%;
+  margin-top: 1%;
   margin-bottom: 3%;
   display: inline-block;
   position: relative;
@@ -403,9 +404,11 @@ hr{
 
 @media screen and (max-width: 900px) {
   p{
-    font-size: 30px!important;
+    font-size: 25px!important;
   }
-
+  .talk-bubble {
+    margin-bottom: 6%;
+  }
 }
 
 @media screen and (max-width: 400px) {
