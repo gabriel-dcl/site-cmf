@@ -12,16 +12,7 @@ body {
   x, y et z représentent les 3 trois du burger
   y disparaît et x et z forment une croix lorsque l'on clique sur le menu
 */
-.burger {
-    height: 30px;
-    width: 40px;
-    position: absolute;
-    top: 21px;
-    left: 26px;
-    cursor: pointer;
-    z-index: 3;
-    position: fixed;
-}
+
 
 .x,
 .y,

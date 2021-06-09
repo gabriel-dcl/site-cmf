@@ -43,18 +43,7 @@
 }
 
 /* Footer */
-footer{
-    background-color: #FBAD41;
-    font-size: 2em;
-}
 
-/* Barre de footer */
-hr{
-  height:1px;
-  border:none;
-  color:#342141;
-  background-color:#342141;
-}
 
 @media screen and (max-width: 1430px) {
   .cardItem{
@@ -101,9 +90,7 @@ hr{
     margin-top: 40px;
     margin-bottom: 20px;
   }
-  footer{
-    margin-top: 50px;
-  }
+
 }
 
 
@@ -115,7 +102,7 @@ hr{
 
 @media screen and (min-width: 768px) and (max-width: 768px) {
      #purpleCard{
-    
+
      }
  }
 
