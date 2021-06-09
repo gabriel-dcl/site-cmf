@@ -346,6 +346,175 @@ hr{
   background-color:#342141;
 }
 
+@media screen and (max-width: 1024px) {
+  #firstPart {
+    margin-top: 20%;
+  }
+
+  #presentation .underline {
+    width: 23%;
+  }
+
+  #pourQui .underline {
+    width: 28%;
+  }
+
+  #journeeType .underline {
+    width: 35%;
+  }
+
+  #indispensables .underline {
+    width : 47%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  #presentation .underline {
+    width: 30%;
+  }
+
+  #pourQui .underline {
+    width: 35%;
+  }
+
+  #journeeType .underline {
+    width: 45%;
+  }
+
+  #indispensables .underline {
+    width : 62%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  #firstPart {
+    margin-top: 30%;
+  }
+
+  #presentation .underline {
+    width: 45%;
+  }
+
+  #pourQui {
+    margin-top: 10%;
+  }
+
+  #pourQui .underline {
+    width: 50%;
+  }
+
+  #journeeType {
+    margin-top: 10%;
+  }
+
+  #journeeType .underline {
+    width: 65%;
+  }
+
+  #indispensables {
+    margin-top: 10%;
+  }
+
+  #indispensables .underline {
+    width : 90%;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  #firstPart {
+    margin-top: 40%;
+  }
+
+  #presentation .underline {
+    width: 60%;
+  }
+
+  #pourQui .underline {
+    width: 70%;
+  }
+
+  #journeeType .underline {
+    width: 90%;
+  }
+
+  #indispensables .underline {
+    width : 90%;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  ul {
+    text-align: left;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  #firstPart {
+    margin-top: 40%;
+  }
+
+  #presentation .underline {
+    width: 65%;
+  }
+
+  #pourQui .underline {
+    width: 75%;
+  }
+
+  #journeeType .underline {
+    width: 95%;
+  }
+
+  #indispensables .underline {
+    width : 97%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  #firstPart {
+    margin-top: 60%;
+  }
+
+  #presentation .underline {
+    width: 90%;
+  }
+
+  p {
+    margin-right: -20%;
+  }
+
+  #pourQui {
+    margin-top: 20%;
+  }
+
+  #pourQui .underline {
+    width: 100%;
+  }
+
+  #journeeType {
+    margin-top: 20%;
+  }
+
+  #journeeType .underline {
+    width: 90%;
+  }
+
+  ul {
+    margin-right: -20%;
+  }
+
+  #indispensables {
+    margin-top: 20%;
+  }
+
+  #indispensables .underline {
+    width : 125%;
+  }
+}
+
 /* Fonts */
 
 @font-face {
