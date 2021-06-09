@@ -417,6 +417,78 @@ hr{
   background-color:#342141;
 }
 
+@media screen and (max-width: 1024px) {
+  h2 {
+    margin-top: 15%;
+  }
+
+  #title .underline {
+    width: 45%;
+    margin-bottom: 2%;
+  }
+
+  #firstCity {
+    height: 250px;
+    margin-bottom: 4%;
+  }
+
+  #text1 {
+    width: 78%;
+    margin-left: 12%;
+    padding-top: 5%;
+  }
+
+  /* Deuxième ville */
+  #secondCity {
+    height: 300px;
+  }
+
+  #text2 {
+    width: 78%;
+    margin-left: 2%;
+    padding-top: 5%;
+  }
+
+  /* Troisième ville */
+  #background3 {
+    position: absolute;
+    background-color: #D63F31;
+    width: 75%;
+    height: 90%;
+    top: 0;
+    right: 0;
+  }
+
+  /* Quatrième ville */
+  #background4 {
+    position: absolute;
+    background-color: #D95027;
+    width: 75%;
+    height: 80%;
+    top: 0;
+    left: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 540px) {
+
+}
+
+@media screen and (max-width: 414px) {
+
+}
+
+@media screen and (max-width: 375px) {
+
+}
+
+@media screen and (max-width: 325px) {
+}
+
 /* Fonts */
 
 @font-face {
