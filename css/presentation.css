@@ -479,11 +479,7 @@ hr{
   }
 
   #presentation .underline {
-    width: 90%;
-  }
-
-  p {
-    margin-right: -20%;
+    width: 70%;
   }
 
   #pourQui {
@@ -491,7 +487,7 @@ hr{
   }
 
   #pourQui .underline {
-    width: 100%;
+    width: 80%;
   }
 
   #journeeType {
@@ -502,16 +498,31 @@ hr{
     width: 90%;
   }
 
-  ul {
-    margin-right: -20%;
-  }
-
   #indispensables {
     margin-top: 20%;
   }
 
   #indispensables .underline {
-    width : 125%;
+    width : 100%;
+  }
+
+  p {
+    font: 25px "Segoe UI", sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 2%;
+  }
+
+  ul {
+    font: 25px "Segoe UI", sans-serif;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  h2 {
+    color: #FBAD41;
+    font: 37px "Segoe UI", sans-serif;
+    margin-left: 5%;
   }
 }
 
