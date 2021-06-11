@@ -12,6 +12,10 @@ body {
   display:none;
 }
 
+.fond-transparent{
+  display:none;
+}
+
 /* Menu burger
   x, y et z représentent les 3 trois du burger
   y disparaît et x et z forment une croix lorsque l'on clique sur le menu
@@ -53,6 +57,15 @@ body {
 .z{
   top: 44px;
 }
+
+.shown{
+ display:contents!important;
+}
+
+.shown-inline{
+ display: inline !important;
+}
+
 
 .collapse{
     top: 20px;
@@ -371,7 +384,7 @@ hr{
 
     .burger {
         top: 21px;
-        left: 75%;
+        left: 85%;
     }
     .circle.expand{
         width: 4000%;

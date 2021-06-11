@@ -12,12 +12,11 @@
       <title>Contact</title>
 
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-      <link rel="stylesheet" href="../css/styles.css" />
       <link rel="stylesheet" href="../css/contact.css" />
 
       <!-- Fonts -->
       <link href="http://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
-
+      <link rel="stylesheet" href="../css/styles.css" />
 
     </head>
 
@@ -72,60 +71,73 @@
 
       <!-- Page -->
       <div id="page" class="container-fluid">
-
-
-        <div class="row">
-          <div id="purpleCard" class="col-11 col-lg-4 col-md-5">
-            <div class="row" style="margin-top: -10px">
-              <h2>Contact</h2>
-            </div>
-            <div id="mail" class="row" style="margin-top: 30px">
-              <div class="col-2">
-                <img src="../images/icones/mailYellow.png" alt="Logo Mail" width="60px">
-              </div>
-              <div class="col-10">
-                <a class="cardItem" href="mailto:stagecmf21@gmail.com">stagecmf21@gmail.com</a>
-              </div>
-            </div>
-            <div id="tel" class="row">
-              <div class="col-2">
-                <img src="../images/icones/phoneYellow.png" alt="Logo Téléphone" width="55px">
-              </div>
-              <div class="col-10">
-                <a class="cardItem" href="tel:+33629284605">06 29 28 46 05</a>
-              </div>
-            </div>
-            <div class="row">
-              <div id="reseaux" class="col justify-content-center" style="margin-top: 35px">
-                <div id="retrouvez" class="row justify-content-center" style="margin-top: 7%">
-                  <p class="cardItem" style="text-align:center!important">Retrouvez-nous sur les réseaux !</p>
-                </div>
-                <div class="row justify-content-center"  style="margin-top: 1%" >
-                  <img src="../images/icones/fbYellow.png" alt="Logo Facebook" height="60px">
-                  <img src="../images/icones/igYellow.png" alt="Logo Instagram" height="60px">
-                  <img src="../images/icones/ytbYellow.png" alt="Logo Youtube" height="60px">
-                </div>
-                <div  id="stage" class="row justify-content-center" style="margin-top: 5px">
-                  <p class="cardItem" >Stage mûsical CMF Côte d'or</p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-1"> </div>
-
+        <div class="row justify-content-center">
           <div class="col-md-6 col-12" style="vertical-align: middle;">
-            <h1 style="font-weight: bold; margin-top: 40px"> Contactez-nous </h1>
-            <h4> N'hésitez pas à nous envoyer un message ! <h4>
+            <h1 style="font-weight: bold; margin-top: 40px"> Pré-inscription </h1>
+            <h4> Remplissez ce formulaire pour chaque personne que vous souhaitez pré-inscrire. <h4>
                 <form style="margin-top: 50px">
                       <div class="mb-3">
-                          <input type="password" placeholder="Votre Nom" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                          <input  placeholder="Votre Nom" id="nom" class="form-control" aria-describedby="passwordHelpBlock">
                       </div>
                       <div class="mb-3">
-                          <input type="password" placeholder="Votre Mail" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+                          <input  placeholder="Votre prenom" id="prenom" class="form-control" aria-describedby="passwordHelpBlock">
                       </div>
                       <div class="mb-3">
-                        <textarea class="form-control" placeholder="Tapez votre message ici..." id="exampleFormControlTextarea1" rows="3"></textarea>
+                          <input  placeholder="Age" id="prenom" class="form-control" aria-describedby="passwordHelpBlock">
+                      </div>
+                      <div class="mb-3">
+                          <input  placeholder="Ecole de musique et / ou harmonie" id="ecole" class="form-control" aria-describedby="passwordHelpBlock">
+                      </div>
+                      <div class="mb-3">
+                          <input  placeholder="Adresse" id="adresse" class="form-control">
+                      </div>
+                      <div class="mb-3">
+                          <input  placeholder="Numero de téléphone" id="tel" class="form-control" aria-describedby="passwordHelpBlock">
+                      </div>
+                      <div class="mb-3">
+                          <input  placeholder="Instrument" id="instrument" class="form-control" aria-describedby="passwordHelpBlock">
+                      </div>
+                      <div class="mb-3">
+                          <input  placeholder="Cycle et / ou nombre d'années de pratique" id="cycle" class="form-control" aria-describedby="passwordHelpBlock">
+                      </div>
+                      <div class="mb-3">
+                          <input  placeholder="Lieu" id="tel" class="form-control" aria-describedby="passwordHelpBlock">
+                      </div>
+                      <div class="form-check form-check-inline mb-3">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+                        <label class="form-check-label" for="inlineRadio1"> Gevrey-Chambertin </label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+                        <label class="form-check-label" for="inlineRadio2"> Châtillon-sur-Seine</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                        <label class="form-check-label" for="inlineRadio3">Is-sur-Tille</label>
+                      </div>
+                      <div class="form-check form-check-inline">
+                        <input class="form-check-input" type="checkbox" name="inlineRadioOptions" id="inlineRadio3" value="option3" >
+                        <label class="form-check-label" for="inlineRadio3">Mirbeau-sur-Bèze</label>
+                      </div>
+
+                      <div class="form-group">
+                        <select id="inputState" class="form-control">
+                          <option selected disabled>Taille de t-shirt</option>
+                            <option> 6 ans </option>
+                          <option> 8 ans </option>
+                          <option> 12 ans </option>
+                          <option> 14 ans </option>
+                          <option> XS </option>
+                          <option> S </option>
+                          <option> M </option>
+                          <option> L </option>
+                          <option> XL </option>
+                          <option> XXL </option>
+                        </select>
+                      </div>
+
+                      <div class="mb-3">
+                        <textarea class="form-control" placeholder="Un commentaire supplémentaire ? " id="exampleFormControlTextarea1" rows="3"></textarea>
                       </div>
                       <button type="submit" class="btn btn-primary" style="margin-top:10px"> ENVOYER</button>
                 </form>

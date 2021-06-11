@@ -1,287 +1,10 @@
 /* Site Web Stage CMF Côte d'Or - 2021 - Page présentant les lieux du stage */
 
-body {
-  font-family: "Segoe UI";
-  color: #342141;
-  background-color: white;
-  text-align: justify;
-}
-
-
-/* Menu burger
-  x, y et z représentent les 3 trois du burger
-  y disparaît et x et z forment une croix lorsque l'on clique sur le menu
-*/
-.burger {
-    height: 30px;
-    width: 40px;
-    position: absolute;
-    top: 21px;
-    left: 26px;
-    cursor: pointer;
-    z-index: 3;
-    position: fixed;
-}
-
-.x,
-.y,
-.z {
-    position: absolute;
-    margin: auto;
-    top: 0px; bottom: 0px;
-    background: #FBAD41;
-    border-radius:2px;
-    -webkit-transition: all 200ms ease-out;
-    -moz-transition: all 200ms ease-out;
-    -ms-transition: all 200ms ease-out;
-    -o-transition: all 200ms ease-out;
-    transition: all 200ms ease-out;
-}
-.x,
-.y,
-.z {
-  height: 4px;
-  width: 35px;
-}
-.y{
-  top: 22px;
-}
-.z{
-  top: 44px;
-}
-
-.collapse{
-    top: 20px;
-    background:#342141;
-    -webkit-transition: all 70ms ease-out;
-    -moz-transition: all 70ms ease-out;
-    -ms-transition: all 70ms ease-out;
-    -o-transition: all 70ms ease-out;
-    transition: all 70ms ease-out;
-}
-
-.collapse:not(.show){
-    display: inline;
-}
-
-.rotate30{
-    -ms-transform: rotate(30deg);
-    -webkit-transform: rotate(30deg);
-    transform: rotate(30deg);
-    -webkit-transition: all 50ms ease-out;
-    -moz-transition: all 50ms ease-out;
-    -ms-transition: all 50ms ease-out;
-    -o-transition: all 50ms ease-out;
-    transition: all 50ms ease-out;
-}
-
-.rotate150{
-    -ms-transform: rotate(150deg);
-    -webkit-transform: rotate(150deg);
-    transform: rotate(150deg);
-    -webkit-transition: all 50ms ease-out;
-    -moz-transition: all 50ms ease-out;
-    -ms-transition: all 50ms ease-out;
-    -o-transition: all 50ms ease-out;
-    transition: all 50ms ease-out;
-}
-
-.rotate45{
-    -ms-transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
-    transform: rotate(45deg);
-    -webkit-transition: all 100ms ease-out;
-    -moz-transition: all 100ms ease-out;
-    -ms-transition: all 100ms ease-out;
-    -o-transition: all 100ms ease-out;
-    transition: all 100ms ease-out;
-}
-
-.rotate135{
-    -ms-transform: rotate(135deg);
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
-    -webkit-transition: all 100ms ease-out;
-    -moz-transition: all 100ms ease-out;
-    -ms-transition: all 100ms ease-out;
-    -o-transition: all 100ms ease-out;
-    transition: all 100ms ease-out;
-}
-
-/* Barre de navigation */
-.navbar{
-  height: 100px;
-  background:#342141;
-  position: fixed;
-  z-index: 5;
-}
-
-.circles {
-    top: -10%;
-    background:#342141;
-    border-radius: 50%;
-    height: 11em;
-    position: relative;
-    width: 11em;
-    margin-top: 5.5em;
-}
-
-.circle-icon {
-    fill: currentColor;
-    height: 50%;
-    left: 50%;
-    position: absolute;
-    stroke: currentColor;
-    stroke-width: 0;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 50%;
-}
-
-/* Cercle du menu */
-.circle{
-    border-radius: 50%;
-    width: 0px;
-    height: 0px;
-    position:absolute;
-    top: 35px;
-    left: 36px;
-    background:#FBAD41;
-    opacity:1;
-    -webkit-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -moz-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -ms-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -o-transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    transition: all 300ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    z-index: 2;
-}
-
-.circle.expand{
-    width: 90%;
-    height: 1500%;
-    top: -560px;
-    left: -565px;
-    -webkit-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -moz-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -ms-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -o-transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    transition: all 400ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-}
-
-/* Menu */
-.menu {
-    height: 568px;
-    width: 100%;
-    position: absolute;
-    top: 0px; left: 0px;
-    margin-top: 4%;
-    display: none;
-}
-
-/* Premières catégories du menu */
-.menu ul li {
-    list-style: none;
-    position:absolute;
-    left:30%;
-    opacity:0;
-    text-align:left;
-    z-index: 3;
-    font-size:0px;
-    -webkit-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -moz-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -ms-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -o-transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    transition: all 70ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-}
-
-li > ul {
- display: none;
-}
-
-li:hover > ul{
- display:contents;
-}
-
-.menu ul li:hover ul li {
-   left: 25px;
-   top: 0px;
-
-}
-
-.menu ul li a {
-    color:#EF4536;
-    text-decoration: none;
-    font: bold 40px "Segoe UI", sans-serif;
-}
-
-.menu ul li a:hover {
-  color:#342141;
-}
-
-.menu li.animate{
-    font-size:21px;
-    opacity:1;
-    -webkit-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -moz-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -ms-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    -o-transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-    transition: all 150ms cubic-bezier(0.000, 0.995, 0.990, 1.000);
-}
-
-.menu ul li ul {
-  position: relative;
-}
-
-.menu > ul {
-    top: 150%;
-    position : absolute;
-    left: 4%;
-}
- .shown{
-  display:contents!important;
-}
-
-
-.menu ul li {
-  position : relative;
-}
-
-.menu > ul > li.animate:nth-of-type(1){
-  position: relative;
-    transition-delay: 0.0s;
-}
-.menu > ul > li.animate:nth-of-type(2){
-  position: relative;
-    transition-delay: 0.03s;
-}
-.menu > ul > li.animate:nth-of-type(3){
-  position: relative;
-    transition-delay: 0.06s;
-}
-.menu > ul > li.animate:nth-of-type(4){
-  position: relative;
-    transition-delay: 0.09s;
-}
-.menu > ul > li.animate:nth-of-type(5){
-  position: relative;
-    transition-delay: 0.12s;
-}
-.menu > ul > li.animate:nth-of-type(6){
-  position: relative;
-    transition-delay: 0.15s;
-}
-.menu > ul > li.animate:nth-of-type(7){
-  position: relative;
-    transition-delay: 0.18s;
-    padding-bottom: 10%;
-    }
-
 /* Titre */
 h2 {
   color: #FBAD41;
   font: bold 50px "Segoe UI", sans-serif;
   margin-left: 5%;
-  margin-top: 5%;
 }
 
 .underline {
@@ -292,7 +15,7 @@ h2 {
 }
 
 #title {
-  margin-top: 5%;
+
   margin-bottom: 2%;
 }
 
@@ -300,21 +23,21 @@ a {
   color: #342141;
 }
 
-a:hover {
+#page a:hover {
   text-decoration: none;
   color: #342141;
   letter-spacing: 0.5em;
   font-weight: 1000;
 }
 
-a:hover > #text1 {
+#page  a:hover > #text1 {
   margin: 0%;
   margin-left: 24%;
   transition: all 0.2s ease-out;
   border-width: thick;
 }
 
-a:hover > #text2 {
+#page  a:hover > #text2 {
   margin: 0%;
   margin-left: -1%;
   transition: all 0.2s ease-out;
@@ -418,8 +141,8 @@ hr{
 }
 
 @media screen and (max-width: 1024px) {
-  h2 {
-    margin-top: 15%;
+  #page{
+    padding-left: 40px;
   }
 
   #title .underline {
@@ -436,6 +159,10 @@ hr{
     width: 78%;
     margin-left: 12%;
     padding-top: 5%;
+  }
+
+  #background1{
+    right: 40px;
   }
 
   /* Deuxième ville */
@@ -456,7 +183,7 @@ hr{
     width: 75%;
     height: 90%;
     top: 0;
-    right: 0;
+    right: 40px;
   }
 
   /* Quatrième ville */
@@ -471,72 +198,133 @@ hr{
 }
 
 @media screen and (max-width: 768px) {
+  #page{
+    padding-left: 0px;
+  }
 
+  #title .underline {
+    width: 55%;
+    margin-bottom: 2%;
+  }
+
+  #firstCity {
+    height: 250px;
+    margin-bottom: 4%;
+  }
+
+  #text1 {
+    width: 98%;
+    margin-left: 1%;
+    padding-top: 2%;
+  }
+
+  #background1{
+    right: 0px;
+    width:90%;
+  }
+
+  /* Deuxième ville */
+  #secondCity {
+    height: 300px;
+  }
+
+  #text2 {
+    width: 78%;
+    margin-left: 2%;
+    padding-top: 5%;
+  }
+
+  #background2{
+  width:90%;
+  }
+
+  /* Troisième ville */
+  #background3 {
+    position: absolute;
+    background-color: #D63F31;
+    height: 90%;
+    top: 0;
+    right: 0px;
+    width:90%;
+  }
+
+  /* Quatrième ville */
+  #background4 {
+    position: absolute;
+    background-color: #D95027;
+    width:90%;
+    height: 80%;
+    top: 0;
+    left: 0;
+  }
 }
 
 @media screen and (max-width: 540px) {
-
+  h3{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 35px;
+  }
+  .background{
+      height: 70%!important;
+      width: 100%;
+  }
+  .text{
+    height: 70%!important;
+    width: 200%!important;
+  }
+  #background2{
+      height: 70%!important;
+  }
+  #secondCity {
+    height: 250px;
+  }
+  #title .underline {
+    width: 77%;
+  }
 }
 
 @media screen and (max-width: 414px) {
-
+  #title .underline {
+    width: 90%;
+    margin-bottom: 2%;
+  }
+  #title{
+    text-align: left!important;
+  }
+  h3{
+    font-size: 30px;
+  }
+  h4{
+    font-size: 35px;
+  }
+  .background{
+      height: 70%!important;
+      width: 140%!important;
+  }
+  .text{
+    height: 70%!important;
+    width: 500%!important;
+  }
+  #background2{
+      height: 70%!important;
+  }
+  #secondCity {
+    height: 250px;
+  }
 }
 
 @media screen and (max-width: 375px) {
-
+  h3{
+    font-size: 27px;
+  }
+  h4{
+    font-size: 32px;
+  }
 }
 
 @media screen and (max-width: 325px) {
 }
 
 /* Fonts */
-
-@font-face {
-    font-family: SegoeUI;
-    src:
-        local("Segoe UI Light"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/light/latest.ttf) format("truetype");
-    font-weight: 100;
-}
-
-@font-face {
-    font-family: SegoeUI;
-    src:
-        local("Segoe UI Semilight"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semilight/latest.ttf) format("truetype");
-    font-weight: 200;
-}
-
-@font-face {
-    font-family: SegoeUI;
-    src:
-        local("Segoe UI"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf) format("truetype");
-    font-weight: 400;
-}
-
-@font-face {
-    font-family: SegoeUI;
-    src:
-        local("Segoe UI Semibold"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/semibold/latest.ttf) format("truetype");
-    font-weight: 600;
-}
-
-@font-face {
-    font-family: SegoeUI;
-    src:
-        local("Segoe UI Bold"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2) format("woff2"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff) format("woff"),
-        url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf) format("truetype");
-    font-weight: 700;
-}
